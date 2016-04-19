@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"><!--Set characters to display properly-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Forces IE to use latest rendering engine-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Food Facts</title>
+        <link rel="stylesheet"  type="text/css" href="css/bootstrap.css" >
+        <link rel="stylesheet" href="css/mystyle.css">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+    </head>
+    <body>
+        
+        
+           <div class="jumbotron jumbotron-bg"><!--jumbotron starts-->
+             <div class="container text-center"><!--jumbotron centers text-->
+                   <h1 class="h1heading">Good. Better. Best. Food Facts</h1>
+                   <p>You are what you eat. Eat the best food you can.</p>
+                 <br>
+                   <br>
+                   <br>
+            </div>
+                   <!-- Modal trigger -->
+
+           </div><!--jumbotron ends-->
+           
+           <nav class="navbar navbar-inverse"><!-- NAvbar starts -->
+            <div class="container">
+                <div class="navbar-header"><!-- Holds site logo -->
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>
+                </div>
+                
+            <!-- navbar list items start -->
+            <div class="collapse navbar-collapse " id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Food Facts</a></li>
+                <li><a href="protein.html">Protein</a></li>
+                <li><a href="carbohydrate.html">Carbohydrate</a></li>
+                 <li><a href="fat.html">Fat</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- navbar list items end -->
+        </nav><!-- NAvbar ends -->
+
+           
+       <div class="container"><!-- Content container starts -->
+                    <br>
+                        <br>
+            <div>      <!-- organic, grassfed, conventional blocks -->
+      <div class="container">    
+  <div class="row1">
+    <div class="col-sm-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading" data-toggle="modal" data-target="#myModal">Why is Conventionally-grown a POOR choice   <span class="glyphicon glyphicon-question-sign"></span></div>
+        <div class="panel-body"><img src="images/conventional-farm-440x440.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4"> 
+      <div class="panel panel-warning">
+        <div class="panel-heading" data-toggle="modal" data-target="#myModal1">Why is Organically-grown a BETTER choice
+          <span class="glyphicon glyphicon-question-sign"></span></div>
+        <div class="panel-body"><img src="images/organic-440x440.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading" data-toggle="modal" data-target="#myModal2">Why is Pasture-raised the BEST choice 
+        <span class="glyphicon glyphicon-question-sign"></span></div>
+        <div class="panel-body"><img src="images/grassfed-440x440.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+      </div>
+    </div>
+  </div>
+ </div>
+                </div><!--organic, grassfed, conventional blocks ends -->
+<br>
+        
+        <div class="row2"><!--Second row starts-->
+                 <div class="col-xs-12 col-md-4"><!--Column 1-->
+                       <h3>About Protein</h3>
+                       <p>Bacon ipsum dolor amet culpa labore porchetta filet mignon tri-tip salami consectetur pancetta andouille. Landjaeger non filet mignon pastrami pork belly sausage in enim nisi pork chop eiusmod biltong. </p>
+                        <p>Swine shank sirloin turkey dolore porchetta, commodo nisi beef ribs consequat mollit eiusmod adipisicing pig hamburger. Ullamco mollit consequat, ham hock dolore sed ut quis enim pork bresaola in sirloin commodo. Duis occaecat deserunt nostrud cillum dolore brisket beef chuck aliquip kevin excepteur in. Kielbasa consequat pig nostrud.</p>
+                      <p><button type="button" class="btn btn-default btn-sm">View details <span class="glyphicon glyphicon-menu-right"></span></button></p> 
+                   </div><!--Column 1 ends-->
+                   
+                   <div class="col-xs-12 col-md-4"><!--Column 2-->
+                       <h3>About Carbohydrate</h3>
+                        <p>Swine shank sirloin turkey dolore porchetta, commodo nisi beef ribs consequat mollit eiusmod adipisicing pig hamburger. Ullamco mollit consequat, ham hock dolore sed ut quis enim pork bresaola in sirloin commodo. Duis occaecat deserunt nostrud cillum dolore brisket beef chuck aliquip kevin excepteur in. Kielbasa consequat pig nostrud.</p>
+                         <p>Bacon ipsum dolor amet culpa labore porchetta filet mignon tri-tip salami consectetur pancetta andouille. Landjaeger non filet mignon pastrami pork belly sausage in enim nisi pork chop eiusmod biltong. </p>
+                       <p><button type="button" class="btn btn-default btn-sm">View details <span class="glyphicon glyphicon-menu-right"></span></button></p> 
+                   </div><!--Column 2 ends-->
+                   
+                   <div class="col-xs-12 col-md-4"><!--Column 3-->
+                       <h3>About Fat</h3>
+                       <p>Bacon ipsum dolor amet beef ball tip turducken meatloaf sausage porchetta rump shoulder t-bone tenderloin. Porchetta capicola pork belly ham. Surducken chuck capicola cupim turkey tenderloin swine. Alcatra sirloin sausage cow turkey.</p>
+                        <p>Bacon ipsum dolor amet culpa labore porchetta filet mignon tri-tip salami consectetur pancetta andouille. Landjaeger non filet mignon pastrami pork belly sausage in enim nisi pork chop eiusmod biltong. </p>
+                        <p><button type="button" class="btn btn-default btn-sm">View details <span class="glyphicon glyphicon-menu-right"></span></button></p>
+                   </div><!--Column 3 ends-->
+               </div><!--Second row ends-->
+
+            </div><!-- Content container ends -->
+           
+
+    
+        
+    <div id="myModal" class="modal fade" role="dialog"><!-- myModal -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">About Conventionally-Grown Food</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Aenean tempor libero ac dui malesuada</strong></p>
+                        
+                        <p>Bacon ipsum dolor amet est strip steak ut occaecat. Est dolore ut mollit biltong beef ribs. In short ribs meatball excepteur cillum spare ribs. Tri-tip laboris spare ribs leberkas capicola aliqua ham. Swine prosciutto in incididunt minim ham hock andouille sint, ex commodo pork. Labore aute eu, ex ut nisi pig do aliqua non brisket incididunt landjaeger eiusmod. Swine nisi pork belly pork chop in kevin.</p>
+                        <p>Turkey nisi frankfurter sed tenderloin velit, id porchetta hamburger reprehenderit fugiat pig t-bone. Labore jerky velit kevin, hamburger fugiat cupidatat chuck. Beef ribs cillum cupim jowl. Sirloin lorem drumstick capicola tenderloin dolore. Consequat adipisicing occaecat, pig labore shoulder tenderloin tongue tail laboris sirloin esse. Porchetta proident velit nostrud culpa in tempor dolore irure. Aliquip cupim pork chop hamburger pig duis short loin ut et excepteur ea tongue qui esse.</p>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                </div>
+            </div>
+    </div>
+    
+      <div id="myModal1" class="modal fade" role="dialog"><!-- myModal -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">About Organically-Grown Food</h4>
+                    </div>
+                    <div class="modal-body">
+                       <p><strong>Aenean tempor libero ac dui malesuada</strong></p>
+                        
+                        <p>Bacon ipsum dolor amet est strip steak ut occaecat. Est dolore ut mollit biltong beef ribs. In short ribs meatball excepteur cillum spare ribs. Tri-tip laboris spare ribs leberkas capicola aliqua ham. Swine prosciutto in incididunt minim ham hock andouille sint, ex commodo pork. Labore aute eu, ex ut nisi pig do aliqua non brisket incididunt landjaeger eiusmod. Swine nisi pork belly pork chop in kevin.</p>
+                        <p>Turkey nisi frankfurter sed tenderloin velit, id porchetta hamburger reprehenderit fugiat pig t-bone. Labore jerky velit kevin, hamburger fugiat cupidatat chuck. Beef ribs cillum cupim jowl. Sirloin lorem drumstick capicola tenderloin dolore. Consequat adipisicing occaecat, pig labore shoulder tenderloin tongue tail laboris sirloin esse. Porchetta proident velit nostrud culpa in tempor dolore irure. Aliquip cupim pork chop hamburger pig duis short loin ut et excepteur ea tongue qui esse.</p>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                        </div>
+                </div>
+            </div>
+    </div>
+    
+         <div id="myModal2" class="modal fade" role="dialog"><!-- myModal -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">About Pasture-Raised Food</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p><strong>Aenean tempor libero ac dui malesuada</strong></p>
+                        
+                        <p>Bacon ipsum dolor amet est strip steak ut occaecat. Est dolore ut mollit biltong beef ribs. In short ribs meatball excepteur cillum spare ribs. Tri-tip laboris spare ribs leberkas capicola aliqua ham. Swine prosciutto in incididunt minim ham hock andouille sint, ex commodo pork. Labore aute eu, ex ut nisi pig do aliqua non brisket incididunt landjaeger eiusmod. Swine nisi pork belly pork chop in kevin.</p>
+                        <p>Turkey nisi frankfurter sed tenderloin velit, id porchetta hamburger reprehenderit fugiat pig t-bone. Labore jerky velit kevin, hamburger fugiat cupidatat chuck. Beef ribs cillum cupim jowl. Sirloin lorem drumstick capicola tenderloin dolore. Consequat adipisicing occaecat, pig labore shoulder tenderloin tongue tail laboris sirloin esse. Porchetta proident velit nostrud culpa in tempor dolore irure. Aliquip cupim pork chop hamburger pig duis short loin ut et excepteur ea tongue qui esse.</p>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                </div>
+            </div>
+    </div>
+        
+ <footer class="container-fluid text-center">
+  <form class="form-inline"><h2>Feed your brain - get the Food Facts News</h2>
+   <input type="name" class="form-control" size="30" placeholder="First Name">
+    <input type="email" class="form-control" size="30" placeholder="Email Address">
+    <button type="button" class="btn btn-info">Feed My Brain!</button>
+  </form>
+</footer>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jqueryUI.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+       <!--  <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+        
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+    </body>
+</html>

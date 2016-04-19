@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Tabs - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">About Protein</a></li>
+    <li><a href="#tabs-2">About Carbohydrate</a></li>
+    <li><a href="#tabs-3">About Fat</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Bacon ipsum dolor amet culpa labore porchetta filet mignon tri-tip salami consectetur pancetta andouille. Landjaeger non filet mignon pastrami pork belly sausage in enim nisi pork chop eiusmod biltong.</p>
+    <p>Swine shank sirloin turkey dolore porchetta, commodo nisi beef ribs consequat mollit eiusmod adipisicing pig hamburger. Ullamco mollit consequat, ham hock dolore sed ut quis enim pork bresaola in sirloin commodo. Duis occaecat deserunt nostrud cillum dolore brisket beef chuck aliquip kevin excepteur in. Kielbasa consequat pig nostrud.</p>
+  </div>
+  <div id="tabs-2">
+    <p>Swine shank sirloin turkey dolore porchetta, commodo nisi beef ribs consequat mollit eiusmod adipisicing pig hamburger. Ullamco mollit consequat, ham hock dolore sed ut quis enim pork bresaola in sirloin commodo. Duis occaecat deserunt nostrud cillum dolore brisket beef chuck aliquip kevin excepteur in. Kielbasa consequat pig nostrud.</p>
+      <p>Bacon ipsum dolor amet culpa labore porchetta filet mignon tri-tip salami consectetur pancetta andouille. Landjaeger non filet mignon pastrami pork belly sausage in enim nisi pork chop eiusmod biltong.</p>
+  </div>
+  <div id="tabs-3">
+    <p>Bacon ipsum dolor amet beef ball tip turducken meatloaf sausage porchetta rump shoulder t-bone tenderloin. Porchetta capicola pork belly ham. Surducken chuck capicola cupim turkey tenderloin swine. Alcatra sirloin sausage cow turkey.</p>
+    <p>Bacon ipsum dolor amet culpa labore porchetta filet mignon tri-tip salami consectetur pancetta andouille. Landjaeger non filet mignon pastrami pork belly sausage in enim nisi pork chop eiusmod biltong.</p>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
+
+
+
+
+<style>
+         #tabs-1{font-size: 14px;}
+         .ui-widget-header {
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+         }
+      </style>
+      
+      
+  TABS tutorial    
+http://www.tutorialspoint.com/jqueryui/jqueryui_tabs.htm
